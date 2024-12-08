@@ -1,4 +1,7 @@
-# SB_droplet_distribution
+# \texttt{rheoFibrillator}
+This package was introduced to simulate droplet fibrillation in the spunbonding process.
+Many features are still under development, but fill free to run Allrun script and give it a try.
+
 This Python library simulates spherical droplets distribution and deformation within a steady-state flow. It inputs
  - ```input_data.py``` for process condition,
  - an OpenFOAM (```XXX.foam```) or a VTK (```YYY.vtk```), and
