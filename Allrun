@@ -1,0 +1,13 @@
+#!/bin/sh
+cd ${0%/*} || exit 1    # run from this directory
+
+echo "Installing necessary packages"
+pip install pyvista trame trame-vtk imageio meshio
+wait
+
+echo "Cleaning"
+rm *png *csv *vtu
+wait
+
+echo "Running python3:"
+python3 main_loop.py
